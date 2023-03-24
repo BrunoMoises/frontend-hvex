@@ -1,3 +1,4 @@
+import { AppTemplate } from '@/components/AppTemplate'
 import { theme } from '@/styles/themes/dark'
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
@@ -7,7 +8,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Component {...pageProps} />
+      <AppTemplate>
+        <Component {...pageProps} />
+      </AppTemplate>
     </ThemeProvider>
   )
 }
