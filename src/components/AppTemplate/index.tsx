@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
-import { Container, Footer, Header } from "./styles";
+import { Footer } from "../Footer";
+import { Header } from "../Header";
+import { Container } from "./styles";
 
 interface AppTemplateProps {
     children: ReactNode;
@@ -7,12 +9,8 @@ interface AppTemplateProps {
 
 export const AppTemplate = ({ children }: AppTemplateProps) => (
     <Container>
-        <Header>
-            aa
-        </Header>
+        <Header />
         {children}
-        <Footer>
-            aa
-        </Footer>
+        <Footer />
     </Container>
 )
