@@ -1,4 +1,4 @@
-import { Box, BoxIcons, Container, Content } from './styles'
+import { Box, BoxIcons, Container, Content, FooterCopyRight } from './styles'
 import logo from '../../assets/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -41,7 +41,7 @@ export const Footer = () => {
     return (
         <Container>
             <Link href="/">
-                <Image src={logo} alt="HVEX" width={95} />
+                <Image src={logo} alt="HVEX" width={120} />
             </Link>
             <Content>
                 {contentItems.map((item) =>
@@ -55,12 +55,17 @@ export const Footer = () => {
                     <BoxIcons>
                         {linkItems.map((item) =>
                             <Link href="/">
-                                <Image src={item.icon} alt={item.alt} width={40} />
+                                <Image src={item.icon} alt={item.alt} width={50} />
                             </Link>
                         )}
                     </BoxIcons>
                 </Box>
             </Content>
+            <FooterCopyRight>
+                <span>HVEX © 2021 | Todos os direitos reservados.</span>
+                <span>Políticas de Privacidade</span>
+                <span>Termos de Uso</span>
+            </FooterCopyRight>
         </Container>
     )
 }
