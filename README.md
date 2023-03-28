@@ -1,38 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend HVEX
 
-## Getting Started
+Este é um projeto de Front-end em Next.js para um processo seletivo da empresa HVEX.
 
-First, run the development server:
+## Instalação
 
-```bash
+Para executar este projeto em sua máquina local, siga as seguintes instruções:
+
+1. Certifique-se de ter o Node.js instalado em sua máquina. Caso não tenha, você pode baixá-lo em https://nodejs.org/.
+2. Faça o download ou clone este repositório em sua máquina local.
+3. Navegue até a pasta raiz do projeto no terminal e execute o seguinte comando para instalar as dependências do projeto:
+
+~~~cmd
+npm install
+~~~
+
+ou
+
+~~~cmd
+yarn install
+~~~
+
+## Deploy do projeto
+
+O projeto atualmente está em deploy pela plataforma Vercel, caso deseje vê-lo em funcionamento basta clicar [aqui](https://frontend-hvex.vercel.app/).
+
+Caso o link não funcione basta acessar https://frontend-hvex.vercel.app/
+
+## Executando o projeto
+
+Após instalar as dependências, execute o seguinte comando na pasta raiz do projeto:
+
+~~~cmd
 npm run dev
-# or
+~~~
+
+ou
+
+~~~cmd
 yarn dev
-# or
-pnpm dev
-```
+~~~
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto será executado em http://localhost:3000.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Construindo o projeto para produção
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Para construir o projeto para produção, execute o seguinte comando:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+~~~cmd
+npm run build
+~~~
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ou
 
-## Learn More
+~~~cmd
+yarn build
+~~~
 
-To learn more about Next.js, take a look at the following resources:
+Isso criará uma pasta build na raiz do projeto com o código otimizado para produção.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Rodando o projeto construído
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para executar o projeto construído em sua máquina local, execute o seguinte comando:
 
-## Deploy on Vercel
+~~~cmd
+npm run start
+~~~
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ou
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+~~~cmd
+yarn start
+~~~
+
+O projeto será executado em http://localhost:3000.
+
+## Tecnologias usadas
+
+- Next.js
+- React
+- TypeScript
+- Styled Components
+
+## Autor
+
+Bruno Moises - [@BrunoMoises](https://github.com/BrunoMoises)
+
+## Dúvidas ou Sugestões
+
+Se tiver alguma dúvida ou sugestão, por favor, não hesite em abrir uma issue no GitHub.
