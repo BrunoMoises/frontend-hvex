@@ -34,7 +34,7 @@ export const Page5 = () => {
                 <Titulo>Desenvolvido para melhorar a performance dos ativos de distribuição</Titulo>
                 <List>
                     {listItems.map(item => (
-                        <li>
+                        <li key={item.label}>
                             <Image src={check} alt="Check" width={20} />
                             <span>{item.label}</span>
                         </li>
