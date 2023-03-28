@@ -8,7 +8,19 @@ Para executar este projeto em sua máquina local, siga as seguintes instruções
 
 1. Certifique-se de ter o Node.js instalado em sua máquina. Caso não tenha, você pode baixá-lo em https://nodejs.org/.
 2. Faça o download ou clone este repositório em sua máquina local.
-3. Navegue até a pasta raiz do projeto no terminal e execute o seguinte comando para instalar as dependências do projeto:
+
+~~~cmd
+git clone https://github.com/BrunoMoises/frontend-hvex.git
+~~~
+
+3. Navegue até a pasta raiz do projeto no terminal.
+
+~~~cmd
+cd frontend-hvex
+~~~
+
+4. Execute o seguinte comando para instalar as dependências do projeto:
+
 
 ~~~cmd
 npm install
