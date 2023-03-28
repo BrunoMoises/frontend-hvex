@@ -3,21 +3,21 @@ import styled from 'styled-components'
 export const Container = styled.div`
     background-color: ${(props) => props.theme.colors.header};
     height: 70px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 0;
 
     a {
         position: absolute;
-        left: 57px;
+        left: 10%;
     }
 
     button {
         position: absolute;
-        right: 80px;
+        right: 20%;
     }
 `
 
