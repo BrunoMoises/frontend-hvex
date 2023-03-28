@@ -20,7 +20,7 @@ export const Header = () => {
     return (
         <Container>
             <Link href="/">
-                <Image src={logo} alt="HVEX" width={65} />
+                <Image src={logo} alt="HVEX" width={75} />
             </Link>
             <MenuItems>
                 {menuItems.map((item) =>
