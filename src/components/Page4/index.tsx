@@ -52,7 +52,7 @@ export const Page4 = () => {
                 <Descricao>O Omni trafo é uma solução consolidada para monitoramento de ativos.   Através deste equipamento, informações importantes da rede são enviadas em tempo real , permitindo, assim, a administração remota de dados como: </Descricao>
                 <BoxIcons>
                     {iconsList.map((icon) => 
-                        <Image src={icon.icon} alt={icon.alt} width={140} />
+                        <Image key={icon.alt} src={icon.icon} alt={icon.alt} width={140} />
                     )}
                 </BoxIcons>
             </Content>

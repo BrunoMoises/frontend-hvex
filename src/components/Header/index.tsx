@@ -24,7 +24,7 @@ export const Header = () => {
             </Link>
             <MenuItems>
                 {menuItems.map((item) =>
-                    <Link href="#">
+                    <Link key={item.label} href="#">
                         <label>{item.label}</label>
                     </Link>
                 )}

@@ -45,7 +45,7 @@ export const Footer = () => {
             </Link>
             <Content>
                 {contentItems.map((item) =>
-                    <Box>
+                    <Box key={item.h1}>
                         <h1>{item.h1}</h1>
                         <p>{item.p}</p>
                     </Box>
@@ -54,7 +54,7 @@ export const Footer = () => {
                     <h1>Confira nossas redes</h1>
                     <BoxIcons>
                         {linkItems.map((item) =>
-                            <Link href="/">
+                            <Link key={item.alt} href="/">
                                 <Image src={item.icon} alt={item.alt} width={50} />
                             </Link>
                         )}
