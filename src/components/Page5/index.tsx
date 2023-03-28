@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Container, Img, Content, Titulo, List } from "./styles"
+import { Container, Content, Titulo, List } from "./styles"
 import check from "./icon/check.png"
 
 const listItems = [
@@ -29,7 +29,6 @@ const listItems = [
 export const Page5 = () => {
     return (
         <Container>
-            <Img />
             <Content>
                 <Titulo>Desenvolvido para melhorar a performance dos ativos de distribuição</Titulo>
                 <List>

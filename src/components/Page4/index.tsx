@@ -1,4 +1,4 @@
-import { Container, Content, Img, Titulo, SubTitulo, Descricao, BoxIcons } from "./styles"
+import { Container, Content, Titulo, SubTitulo, Descricao, BoxIcons } from "./styles"
 import icon1 from './icons/icon1.png'
 import icon2 from './icons/icon2.png'
 import icon3 from './icons/icon3.png'
@@ -46,7 +46,6 @@ const iconsList = [
 export const Page4 = () => {
     return (
         <Container>
-            <Img />
             <Content>
                 <Titulo>OMNI TRAFO</Titulo>
                 <SubTitulo>Monitoramento inteligente de transformadores de distribuição</SubTitulo>
