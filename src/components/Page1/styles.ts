@@ -7,15 +7,11 @@ export const Container = styled.div`
     width: 100%;
     height: 750px;
     left: 0px;
-    background-color: ${(props) => props.theme.colors.primary};
-`
-export const Img = styled.div`
-    position: absolute;
-    width: 568px;
-    height: 750px;
-    left: 54%;
-
     background: url(${bg.src});
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    background-color: ${(props) => props.theme.colors.primary};
 `
 
 export const Titulo = styled.div`
@@ -66,7 +62,7 @@ export const Botao = styled.button`
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    padding: 10px 22px;
+    padding: 10px 20px;
 
     background: ${(props) => props.theme.colors.blue2};
     border-radius: 5px;

@@ -2,20 +2,15 @@ import styled from 'styled-components'
 import bg from '../../assets/background2.png'
 
 export const Container = styled.div`
+    position: relative;
     width: 100%;
     height: 926px;
     
     background: ${(props) => props.theme.colors.white};
-`
-
-export const Img = styled.div`
-    position: absolute;
-    width: 553px;
-    height: 681px;
-    left: 8%;
-    top: 130%;
-
-    background: url(${bg.src});
+    background-image: url(${bg.src});
+    background-repeat: no-repeat;
+    background-position: 8% 75%;
+    background-size: 50%;
 `
 
 export const Content = styled.div`
@@ -25,13 +20,13 @@ export const Content = styled.div`
     align-items: flex-start;
     height: 100%;
     position: absolute;
-    top: 130%;
-    left: 47%;
+    left: 55%;
+    top: 15%;
     gap: 50px;
 `
 
 export const Titulo = styled.div`
-    width: 50%;
+    width: 60%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -42,7 +37,7 @@ export const Titulo = styled.div`
 `
 
 export const Descricao = styled.div`
-    width: 65%;
+    width: 80%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

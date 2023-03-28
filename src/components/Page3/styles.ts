@@ -52,10 +52,10 @@ export const BoxCards = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 40%;
+    width: 515px;
     gap: 15px;
 
     position: absolute;
-    left: 50%;
+    left: 55%;
     top: 10%;
 `

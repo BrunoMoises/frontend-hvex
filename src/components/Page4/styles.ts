@@ -6,15 +6,10 @@ export const Container = styled.div`
     width: 100%;
     height: 900px;
     background-color: ${(props) => props.theme.colors.white};
-`
-
-export const Img = styled.div`
-    position: absolute;
-    width: 541px;
-    height: 778px;
-    left: 4%;
-
-    background: url(${bg.src});
+    background-image: url(${bg.src});
+    background-repeat: no-repeat;
+    background-position: 3% 75%;
+    background-size: 40%;
 `
 
 export const Content = styled.div`
@@ -25,7 +20,7 @@ export const Content = styled.div`
     height: 100%;
     position: absolute;
     top: 15%;
-    left: 42%;
+    left: 43%;
     gap: 50px;
 `
 export const Titulo = styled.div`
@@ -39,7 +34,7 @@ export const Titulo = styled.div`
     border-bottom: 5px solid ${(props) => props.theme.colors.blue2};
 `
 export const SubTitulo = styled.div`
-    width: 520px;
+    width: 80%;
     color: ${(props) => props.theme.colors.secondary};
     font-family: 'Inter';
     font-style: normal;
@@ -48,7 +43,7 @@ export const SubTitulo = styled.div`
     line-height: 40px;
 `
 export const Descricao = styled.div`
-    width: 690px;
+    width: 90%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -62,6 +57,6 @@ export const BoxIcons = styled.div`
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 95%;
     gap: 40px;
 `

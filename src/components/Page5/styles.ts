@@ -7,16 +7,10 @@ export const Container = styled.div`
     height: 750px;
     left: 0px;
     background-color: #F4F4F4;
-`
-export const Img = styled.div`
-    position: absolute;
-    width: 800px;
-    height: 879px;
-    left: 47%;
-    top: 5%;
-
     background: url(${bg.src});
     background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
 `
 
 export const Content = styled.div`
@@ -27,7 +21,7 @@ export const Content = styled.div`
     height: 100%;
     position: absolute;
     top: 15%;
-    left: 10%;
+    left: 5%;
     gap: 50px;
 `
 
